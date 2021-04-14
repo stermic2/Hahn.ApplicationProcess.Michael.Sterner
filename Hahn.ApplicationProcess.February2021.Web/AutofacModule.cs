@@ -14,7 +14,7 @@ namespace Hahn.ApplicationProcess.February2021.Web
             
             var mapperCfg = new MapperConfiguration(cfg =>
             {
-                builder.GenericallyRegisterAnEntityToDtos<DemoDbContext, AssetEntity, AssetDto>();
+                builder.GenericallyRegisterAnEntityToDtos<DemoDbContext, AssetEntity, AssetDto>(cfg);
             });
             builder.Register(c =>
                 {
