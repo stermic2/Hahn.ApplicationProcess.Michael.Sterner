@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hahn.ApplicationProcess.February2021.Web", "Hahn.ApplicationProcess.February2021.Web\Hahn.ApplicationProcess.February2021.Web.csproj", "{896831E5-387D-447D-B234-CB5BBD0FA503}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hahn.ApplicationProcess.February2021.Domain", "Hahn.ApplicationProcess.February2021.Domain\Hahn.ApplicationProcess.February2021.Domain.csproj", "{BDE336A9-1748-447A-9904-4330EBC01200}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{896831E5-387D-447D-B234-CB5BBD0FA503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{896831E5-387D-447D-B234-CB5BBD0FA503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{896831E5-387D-447D-B234-CB5BBD0FA503}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{896831E5-387D-447D-B234-CB5BBD0FA503}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDE336A9-1748-447A-9904-4330EBC01200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDE336A9-1748-447A-9904-4330EBC01200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDE336A9-1748-447A-9904-4330EBC01200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDE336A9-1748-447A-9904-4330EBC01200}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
