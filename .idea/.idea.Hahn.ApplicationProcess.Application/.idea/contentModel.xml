@@ -5,6 +5,11 @@
       <e p="Hahn.ApplicationProcess.Application.sln" t="IncludeFlat" />
       <e p="Hahn.ApplicationProcess.February2021.Domain" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Containers" t="Include">
+          <e p="Enums" t="Include">
+            <e p="Department.cs" t="Include" />
+          </e>
+        </e>
         <e p="Hahn.ApplicationProcess.February2021.Domain.csproj" t="IncludeRecursive" />
         <e p="Models" t="Include">
           <e p="Asset" t="Include">

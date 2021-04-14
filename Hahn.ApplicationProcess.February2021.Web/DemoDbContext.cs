@@ -1,3 +1,4 @@
+using Hahn.ApplicationProcess.February2021.Domain.Models.Asset;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 
@@ -6,6 +7,8 @@ namespace Hahn.ApplicationProcess.February2021.Web
     public partial class DemoDbContext : DbContext
     {
         public static string ConnectionString = string.Empty;
+        
+        public DbSet<AssetEntity> Assets { get; set; }
 
         public DemoDbContext(DbContextOptions<DemoDbContext> options, IHttpContextAccessor accessor) :
             base(options)
@@ -24,5 +27,6 @@ namespace Hahn.ApplicationProcess.February2021.Web
         {
             modelBuilder.HasAnnotation("Relational:Collation", "en_US.utf8");
         }
+        
     }
 }

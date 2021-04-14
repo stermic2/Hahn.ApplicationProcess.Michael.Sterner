@@ -44,3 +44,6 @@ C:\Code\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.February2021
 C:\Code\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.February2021.Web\obj\Debug\netcoreapp3.1\Hahn.ApplicationProcess.February2021.Web.csproj.CopyComplete
 C:\Code\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.February2021.Web\obj\Debug\netcoreapp3.1\Hahn.ApplicationProcess.February2021.Web.dll
 C:\Code\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.February2021.Web\obj\Debug\netcoreapp3.1\Hahn.ApplicationProcess.February2021.Web.pdb
+C:\Code\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.February2021.Web\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Code\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.February2021.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Code\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.February2021.Web\bin\Debug\netcoreapp3.1\Autofac.Extensions.DependencyInjection.dll
