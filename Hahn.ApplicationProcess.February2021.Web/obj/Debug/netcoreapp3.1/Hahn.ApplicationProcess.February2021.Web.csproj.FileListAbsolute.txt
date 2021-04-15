@@ -47,3 +47,7 @@ C:\Code\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.February2021
 C:\Code\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.February2021.Web\bin\Debug\netcoreapp3.1\Humanizer.dll
 C:\Code\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.February2021.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Code\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.February2021.Web\bin\Debug\netcoreapp3.1\Autofac.Extensions.DependencyInjection.dll
+C:\Code\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.February2021.Web\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Code\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.February2021.Web\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+C:\Code\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.February2021.Web\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+C:\Code\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.February2021.Web\bin\Debug\netcoreapp3.1\RestSharp.dll

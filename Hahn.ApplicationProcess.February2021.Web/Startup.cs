@@ -1,11 +1,8 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Autofac;
+using FluentValidation.AspNetCore;
+using Hahn.ApplicationProcess.February2021.Domain;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -25,8 +22,12 @@ namespace Hahn.ApplicationProcess.February2021.Web
         }
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
-            services.AddControllers().AddControllersAsServices();
+            services.AddControllers(options =>
+                {
+                    options.Filters.Add(typeof(ValidateModelStateAttribute));
+                })
+                .AddFluentValidation(fvc => fvc.RegisterValidatorsFromAssemblyContaining<ValidateModelStateAttribute>())
+                .AddControllersAsServices();
             DemoDbContext.ConnectionString = Configuration.GetConnectionString("SDb");
             services.AddDbContext<DemoDbContext>(options =>
                 options.UseNpgsql(DemoDbContext.ConnectionString));

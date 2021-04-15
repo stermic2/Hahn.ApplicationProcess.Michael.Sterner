@@ -24,6 +24,11 @@
             </e>
           </e>
         </e>
+        <e p="ValidateModelStateAttribute.cs" t="Include" />
+        <e p="Validators" t="Include">
+          <e p="AssetValidator.cs" t="Include" />
+          <e p="CountryValidator.cs" t="Include" />
+        </e>
       </e>
       <e p="Hahn.ApplicationProcess.February2021.Web" t="IncludeRecursive">
         <e p="appsettings.Development.json" t="Include" />
