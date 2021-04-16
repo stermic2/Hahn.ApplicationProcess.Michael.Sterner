@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Hahn.ApplicationProcess.February2021.Web</name>
+    </assembly>
+    <members>
+        <member name="P:Hahn.ApplicationProcess.February2021.Domain.Models.Asset.AssetDto.AssetName">
+            <example>Valid Name longer than 5 char</example>
+        </member>
+        <member name="P:Hahn.ApplicationProcess.February2021.Domain.Models.Asset.AssetDto.CountryOfDepartment">
+            <example>Germany</example>
+        </member>
+        <member name="P:Hahn.ApplicationProcess.February2021.Domain.Models.Asset.AssetDto.EMailAddressOfDepartment">
+            <example>mikies006@gmail.com</example>
+        </member>
+    </members>
+</doc>

@@ -1,3 +1,4 @@
+using System.IO;
 using Autofac;
 using FluentValidation.AspNetCore;
 using Hahn.ApplicationProcess.February2021.Domain;
@@ -7,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.OpenApi.Models;
 using IHostingEnvironment = Microsoft.AspNetCore.Hosting.IHostingEnvironment;
 
 namespace Hahn.ApplicationProcess.February2021.Web
@@ -31,6 +33,18 @@ namespace Hahn.ApplicationProcess.February2021.Web
             DemoDbContext.ConnectionString = Configuration.GetConnectionString("SDb");
             services.AddDbContext<DemoDbContext>(options =>
                 options.UseNpgsql(DemoDbContext.ConnectionString));
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1",
+                    new OpenApiInfo
+                    {
+                        Title = "My API - V1",
+                        Version = "v1"
+                    }
+                );
+                var filePath = Path.Combine(Directory.GetCurrentDirectory(), "SwaggerExamples.xml");
+                c.IncludeXmlComments(filePath);
+            });
         }
         
         public void ConfigureContainer(ContainerBuilder builder)
@@ -45,6 +59,11 @@ namespace Hahn.ApplicationProcess.February2021.Web
             using var scope = app.ApplicationServices.CreateScope();
             app.UseStaticFiles();
             app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
+            app.UseSwagger();
+            app.UseSwaggerUI(options =>
+            {
+                options.SwaggerEndpoint("/swagger/v1/swagger.json", "Swagger UI");
+            });
         }
     }
 }
