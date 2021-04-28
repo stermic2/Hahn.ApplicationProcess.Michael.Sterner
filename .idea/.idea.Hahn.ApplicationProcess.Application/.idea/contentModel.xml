@@ -14,7 +14,6 @@
             <e p="FormioJson.cs" t="Include" />
           </e>
         </e>
-        <e p="CustomCommands" t="Include" />
         <e p="Hahn.ApplicationProcess.February2021.Domain.csproj" t="IncludeRecursive" />
         <e p="Models" t="Include">
           <e p="Asset" t="Include">
