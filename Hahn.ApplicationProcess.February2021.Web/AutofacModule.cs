@@ -11,7 +11,7 @@ namespace Hahn.ApplicationProcess.February2021.Web
     {
         protected override void Load(ContainerBuilder builder)
         {
-            
+            //Entire Data Layer is dependency injected here
             var mapperCfg = new MapperConfiguration(cfg =>
             {
                 builder.GenericallyRegisterAnEntityToDtos<DemoDbContext, AssetEntity, AssetDto>(cfg);

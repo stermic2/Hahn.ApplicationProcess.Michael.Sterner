@@ -9,6 +9,10 @@
           <e p="Enums" t="Include">
             <e p="Department.cs" t="Include" />
           </e>
+          <e p="Wrappers" t="Include">
+            <e p="Empty.cs" t="Include" />
+            <e p="FormioJson.cs" t="Include" />
+          </e>
         </e>
         <e p="CustomCommands" t="Include" />
         <e p="Hahn.ApplicationProcess.February2021.Domain.csproj" t="IncludeRecursive" />
@@ -41,6 +45,7 @@
         </e>
         <e p="DemoDbContext.cs" t="Include" />
         <e p="Hahn.ApplicationProcess.February2021.Web.csproj" t="IncludeRecursive" />
+        <e p="log-20210427.txt" t="Include" />
         <e p="Migrations" t="Include">
           <e p="20210414211013_InitialCreate.cs" t="Include" />
           <e p="20210414211013_InitialCreate.Designer.cs" t="Include" />

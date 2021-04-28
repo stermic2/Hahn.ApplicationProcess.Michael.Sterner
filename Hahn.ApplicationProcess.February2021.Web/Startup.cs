@@ -24,6 +24,8 @@ namespace Hahn.ApplicationProcess.February2021.Web
         }
         public void ConfigureServices(IServiceCollection services)
         {
+            var clientUrl = Configuration.GetValue<string>("Urls:Client");
+            var apiUrl = Configuration.GetValue<string>("Urls:Api");
             services.AddControllers(options =>
                 {
                     options.Filters.Add(typeof(ValidateModelStateAttribute));
@@ -45,6 +47,12 @@ namespace Hahn.ApplicationProcess.February2021.Web
                 var filePath = Path.Combine(Directory.GetCurrentDirectory(), "SwaggerExamples.xml");
                 c.IncludeXmlComments(filePath);
             });
+            services.AddCors(o => o.AddPolicy("CorsPolicy",
+                builder =>
+                {
+                    builder.AllowAnyMethod().AllowAnyHeader().WithOrigins(clientUrl, apiUrl).AllowCredentials();
+                }));
+
         }
         
         public void ConfigureContainer(ContainerBuilder builder)
@@ -58,12 +66,13 @@ namespace Hahn.ApplicationProcess.February2021.Web
             app.UseRouting();
             using var scope = app.ApplicationServices.CreateScope();
             app.UseStaticFiles();
-            app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
             app.UseSwagger();
             app.UseSwaggerUI(options =>
             {
                 options.SwaggerEndpoint("/swagger/v1/swagger.json", "Swagger UI");
             });
+            app.UseCors("CorsPolicy");
+            app.UseEndpoints(endpoints => { endpoints.MapControllers().RequireCors("CorsPolicy"); });
         }
     }
 }

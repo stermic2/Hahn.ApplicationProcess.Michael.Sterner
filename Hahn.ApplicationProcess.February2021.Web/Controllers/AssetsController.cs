@@ -1,6 +1,7 @@
 using System.Threading.Tasks;
 using AutoMapper;
 using DynamicCQ.Controllers;
+using Hahn.ApplicationProcess.February2021.Domain.Containers.Wrappers;
 using Hahn.ApplicationProcess.February2021.Domain.Models.Asset;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -13,8 +14,8 @@ namespace Hahn.ApplicationProcess.February2021.Web.Controllers
         public AssetsController(IMapper mapper, IMediator dispatcher) : base(mapper, dispatcher) {}
 
         [HttpPost]
-        public async Task<IActionResult> Post([FromBody] AssetDto dto) 
-            => await this.Add(dto);
+        public async Task<IActionResult> Post([FromBody] FormioJson<AssetDto> dto) 
+            => await this.Add(dto.data);
         
         [HttpGet("{id}")]
         public async Task<IActionResult> Get(string id) 

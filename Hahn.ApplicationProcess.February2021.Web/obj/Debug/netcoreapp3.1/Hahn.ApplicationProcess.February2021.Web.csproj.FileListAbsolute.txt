@@ -55,3 +55,17 @@ C:\Code\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.February2021
 C:\Code\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.February2021.Web\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 C:\Code\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.February2021.Web\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Code\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.February2021.Web\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Code\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.February2021.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Code\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.February2021.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Code\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.February2021.Web\bin\Debug\netcoreapp3.1\Serilog.dll
+C:\Code\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.February2021.Web\bin\Debug\netcoreapp3.1\Serilog.AspNetCore.dll
+C:\Code\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.February2021.Web\bin\Debug\netcoreapp3.1\Serilog.Extensions.Hosting.dll
+C:\Code\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.February2021.Web\bin\Debug\netcoreapp3.1\Serilog.Extensions.Logging.dll
+C:\Code\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.February2021.Web\bin\Debug\netcoreapp3.1\Serilog.Formatting.Compact.dll
+C:\Code\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.February2021.Web\bin\Debug\netcoreapp3.1\Serilog.Settings.Configuration.dll
+C:\Code\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.February2021.Web\bin\Debug\netcoreapp3.1\Serilog.Sinks.Console.dll
+C:\Code\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.February2021.Web\bin\Debug\netcoreapp3.1\Serilog.Sinks.Debug.dll
+C:\Code\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.February2021.Web\bin\Debug\netcoreapp3.1\Serilog.Sinks.File.dll
+C:\Code\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.February2021.Web\bin\Debug\netcoreapp3.1\Serilog.Sinks.RollingFile.dll
+C:\Code\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.February2021.Web\bin\Debug\netcoreapp3.1\Serilog.Sinks.PeriodicBatching.dll
+C:\Code\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.February2021.Web\bin\Debug\netcoreapp3.1\Serilog.Sinks.Seq.dll
