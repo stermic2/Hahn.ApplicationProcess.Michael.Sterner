@@ -6,3 +6,12 @@ C:\Code\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.February2021
 C:\Code\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.February2021.Domain\obj\Debug\netcoreapp3.0\Hahn.ApplicationProcess.February2021.Domain.AssemblyInfo.cs
 C:\Code\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.February2021.Domain\obj\Debug\netcoreapp3.0\Hahn.ApplicationProcess.February2021.Domain.dll
 C:\Code\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.February2021.Domain\obj\Debug\netcoreapp3.0\Hahn.ApplicationProcess.February2021.Domain.pdb
+C:\Code\Hahn.ApplicationProcess.Michael.Sterner\Hahn.ApplicationProcess.February2021.Domain\bin\Debug\netcoreapp3.0\Hahn.ApplicationProcess.February2021.Domain.deps.json
+C:\Code\Hahn.ApplicationProcess.Michael.Sterner\Hahn.ApplicationProcess.February2021.Domain\bin\Debug\netcoreapp3.0\Hahn.ApplicationProcess.February2021.Domain.dll
+C:\Code\Hahn.ApplicationProcess.Michael.Sterner\Hahn.ApplicationProcess.February2021.Domain\bin\Debug\netcoreapp3.0\Hahn.ApplicationProcess.February2021.Domain.pdb
+C:\Code\Hahn.ApplicationProcess.Michael.Sterner\Hahn.ApplicationProcess.February2021.Domain\obj\Debug\netcoreapp3.0\Hahn.ApplicationProcess.February2021.Domain.csprojAssemblyReference.cache
+C:\Code\Hahn.ApplicationProcess.Michael.Sterner\Hahn.ApplicationProcess.February2021.Domain\obj\Debug\netcoreapp3.0\Hahn.ApplicationProcess.February2021.Domain.csproj.CoreCompileInputs.cache
+C:\Code\Hahn.ApplicationProcess.Michael.Sterner\Hahn.ApplicationProcess.February2021.Domain\obj\Debug\netcoreapp3.0\Hahn.ApplicationProcess.February2021.Domain.AssemblyInfoInputs.cache
+C:\Code\Hahn.ApplicationProcess.Michael.Sterner\Hahn.ApplicationProcess.February2021.Domain\obj\Debug\netcoreapp3.0\Hahn.ApplicationProcess.February2021.Domain.AssemblyInfo.cs
+C:\Code\Hahn.ApplicationProcess.Michael.Sterner\Hahn.ApplicationProcess.February2021.Domain\obj\Debug\netcoreapp3.0\Hahn.ApplicationProcess.February2021.Domain.dll
+C:\Code\Hahn.ApplicationProcess.Michael.Sterner\Hahn.ApplicationProcess.February2021.Domain\obj\Debug\netcoreapp3.0\Hahn.ApplicationProcess.February2021.Domain.pdb

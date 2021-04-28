@@ -14,8 +14,8 @@ namespace Hahn.ApplicationProcess.February2021.Web.Controllers
         public AssetsController(IMapper mapper, IMediator dispatcher) : base(mapper, dispatcher) {}
 
         [HttpPost]
-        public async Task<IActionResult> Post([FromBody] FormioJson<AssetDto> dto) 
-            => await this.Add(dto.data);
+        public async Task<IActionResult> Post([FromBody] AssetDto dto) 
+            => await this.Add(dto);
         
         [HttpGet("{id}")]
         public async Task<IActionResult> Get(string id) 
