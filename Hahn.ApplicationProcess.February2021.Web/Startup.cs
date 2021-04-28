@@ -1,4 +1,5 @@
 using System.IO;
+using System.Text.Json.Serialization;
 using Autofac;
 using FluentValidation.AspNetCore;
 using Hahn.ApplicationProcess.February2021.Domain;
@@ -31,7 +32,11 @@ namespace Hahn.ApplicationProcess.February2021.Web
                     options.Filters.Add(typeof(ValidateModelStateAttribute));
                 })
                 .AddFluentValidation(fvc => fvc.RegisterValidatorsFromAssemblyContaining<ValidateModelStateAttribute>())
-                .AddControllersAsServices();
+                .AddControllersAsServices()
+                .AddJsonOptions(options =>
+                {
+                    options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
+                });
             DemoDbContext.ConnectionString = Configuration.GetConnectionString("SDb");
             services.AddDbContext<DemoDbContext>(options =>
                 options.UseNpgsql(DemoDbContext.ConnectionString));

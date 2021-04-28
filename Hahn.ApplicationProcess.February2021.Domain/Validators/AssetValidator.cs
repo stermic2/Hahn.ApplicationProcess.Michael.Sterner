@@ -10,8 +10,8 @@ namespace Hahn.ApplicationProcess.February2021.Domain.Validators
         {
             RuleFor(x => x.AssetName).MinimumLength(5);
             RuleFor(x => x.Department).IsInEnum();
-            RuleFor(x => x.CountryOfDepartment).Country();
-            RuleFor(x => x.PurchaseDate).GreaterThan(x => DateTime.Now.AddYears(-1));
+            RuleFor(x => x.CountryOfDepartment).NotEmpty().Country();
+            RuleFor(x => x.PurchaseDate).NotEmpty().GreaterThan(x => DateTime.Now.AddYears(-1));
             RuleFor(x => x.EMailAddressOfDepartment).EmailAddress();
             RuleFor(x => x.Broken).NotNull();
         }
