@@ -44,7 +44,6 @@
         </e>
         <e p="DemoDbContext.cs" t="Include" />
         <e p="Hahn.ApplicationProcess.February2021.Web.csproj" t="IncludeRecursive" />
-        <e p="log-20210506.txt" t="Include" />
         <e p="Migrations" t="Include">
           <e p="20210414211013_InitialCreate.cs" t="Include" />
           <e p="20210414211013_InitialCreate.Designer.cs" t="Include" />
