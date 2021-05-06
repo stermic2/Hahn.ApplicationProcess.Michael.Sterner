@@ -15,10 +15,12 @@ https://localhost:5001/swagger/index.html
 
 FrontEnd: 
 
-cd to HahnApplicationFrontEnd/HahnFrontEnd
+cd to HahnApplicationFrontEnd/HahnApplication
 run 'npm start'
 
 make sure to run npm install first.
+
+The Front end is found at http://localhost:8080/
 
 Thank you for your time,
 Michael S.
