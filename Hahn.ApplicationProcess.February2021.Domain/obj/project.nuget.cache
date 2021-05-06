@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WZlhWSKxroI9UwTTXvYsUmTZI+BGNkbF20H5ugcDDp/9tHeWUcwXrxvkzLqPWmII1QGcUY6bbLfVhmExqVBNTg==",
+  "dgSpecHash": "YEfpnhH477vZd4Pq1Ec82rGHdcblKc+3ANh7gyAx9k7BJ6A7JpWzXufYHR3QaUxunWXDX50WRkb/b5rRkahhVA==",
   "success": true,
-  "projectFilePath": "C:\\Code\\Hahn.ApplicationProcess.Application\\Hahn.ApplicationProcess.February2021.Domain\\Hahn.ApplicationProcess.February2021.Domain.csproj",
+  "projectFilePath": "C:\\Code\\Hahn.ApplicationProcess.Michael.Sterner\\Hahn.ApplicationProcess.February2021.Domain\\Hahn.ApplicationProcess.February2021.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mikie.TLOFFICE\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
     "C:\\Users\\mikie.TLOFFICE\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",

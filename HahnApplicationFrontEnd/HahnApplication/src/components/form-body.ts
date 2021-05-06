@@ -33,23 +33,23 @@ export class FormBody {
               values: {
                 0: {
                   label: "HQ",
-                  value: "0"
+                  value: 0 as number
                 },
                 1: {
                   label: "Store 1",
-                  value: "1"
+                  value: 1 as number
                 },
                 2: {
                   label: "Store 2",
-                  value: "2"
+                  value: 2 as number
                 },
                 3: {
                   label: "Store 3",
-                  value: "3"
+                  value: 3 as number
                 },
                 4: {
                   label: "Maintenance Station",
-                  value: "4"
+                  value: 4 as number
                 }
               }
             },
@@ -70,6 +70,7 @@ export class FormBody {
             input: true,
             key: "PurchaseDate",
             suffix: true,
+            format: "yyyy-MM-ddTHH:mm a",
             datePicker: {
               yearRows: "4",
               yearColumns: "5",

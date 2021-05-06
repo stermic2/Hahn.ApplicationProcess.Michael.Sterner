@@ -130,7 +130,6 @@ C:\Code\Hahn.ApplicationProcess.Michael.Sterner\Hahn.ApplicationProcess.February
 C:\Code\Hahn.ApplicationProcess.Michael.Sterner\Hahn.ApplicationProcess.February2021.Web\bin\Debug\netcoreapp3.1\Hahn.ApplicationProcess.February2021.Domain.dll
 C:\Code\Hahn.ApplicationProcess.Michael.Sterner\Hahn.ApplicationProcess.February2021.Web\bin\Debug\netcoreapp3.1\Hahn.ApplicationProcess.February2021.Domain.pdb
 C:\Code\Hahn.ApplicationProcess.Michael.Sterner\Hahn.ApplicationProcess.February2021.Web\obj\Debug\netcoreapp3.1\Hahn.ApplicationProcess.February2021.Web.csprojAssemblyReference.cache
-C:\Code\Hahn.ApplicationProcess.Michael.Sterner\Hahn.ApplicationProcess.February2021.Web\obj\Debug\netcoreapp3.1\Hahn.ApplicationProcess.February2021.Web.csproj.CoreCompileInputs.cache
 C:\Code\Hahn.ApplicationProcess.Michael.Sterner\Hahn.ApplicationProcess.February2021.Web\obj\Debug\netcoreapp3.1\Hahn.ApplicationProcess.February2021.Web.MvcApplicationPartsAssemblyInfo.cs
 C:\Code\Hahn.ApplicationProcess.Michael.Sterner\Hahn.ApplicationProcess.February2021.Web\obj\Debug\netcoreapp3.1\Hahn.ApplicationProcess.February2021.Web.MvcApplicationPartsAssemblyInfo.cache
 C:\Code\Hahn.ApplicationProcess.Michael.Sterner\Hahn.ApplicationProcess.February2021.Web\obj\Debug\netcoreapp3.1\Hahn.ApplicationProcess.February2021.Web.AssemblyInfoInputs.cache
@@ -141,4 +140,3 @@ C:\Code\Hahn.ApplicationProcess.Michael.Sterner\Hahn.ApplicationProcess.February
 C:\Code\Hahn.ApplicationProcess.Michael.Sterner\Hahn.ApplicationProcess.February2021.Web\obj\Debug\netcoreapp3.1\staticwebassets\Hahn.ApplicationProcess.February2021.Web.StaticWebAssets.xml
 C:\Code\Hahn.ApplicationProcess.Michael.Sterner\Hahn.ApplicationProcess.February2021.Web\obj\Debug\netcoreapp3.1\Hahn.ApplicationProcess.February2021.Web.dll
 C:\Code\Hahn.ApplicationProcess.Michael.Sterner\Hahn.ApplicationProcess.February2021.Web\obj\Debug\netcoreapp3.1\Hahn.ApplicationProcess.February2021.Web.pdb
-C:\Code\Hahn.ApplicationProcess.Michael.Sterner\Hahn.ApplicationProcess.February2021.Web\obj\Debug\netcoreapp3.1\Hahn.ApplicationProcess.February2021.Web.genruntimeconfig.cache

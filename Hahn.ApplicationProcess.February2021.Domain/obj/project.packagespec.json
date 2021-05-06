@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Code\\Hahn.ApplicationProcess.Application\\Hahn.ApplicationProcess.February2021.Domain\\Hahn.ApplicationProcess.February2021.Domain.csproj",
+    "projectUniqueName": "C:\\Code\\Hahn.ApplicationProcess.Michael.Sterner\\Hahn.ApplicationProcess.February2021.Domain\\Hahn.ApplicationProcess.February2021.Domain.csproj",
     "projectName": "Hahn.ApplicationProcess.February2021.Domain",
-    "projectPath": "C:\\Code\\Hahn.ApplicationProcess.Application\\Hahn.ApplicationProcess.February2021.Domain\\Hahn.ApplicationProcess.February2021.Domain.csproj",
-    "outputPath": "C:\\Code\\Hahn.ApplicationProcess.Application\\Hahn.ApplicationProcess.February2021.Domain\\obj\\",
+    "projectPath": "C:\\Code\\Hahn.ApplicationProcess.Michael.Sterner\\Hahn.ApplicationProcess.February2021.Domain\\Hahn.ApplicationProcess.February2021.Domain.csproj",
+    "outputPath": "C:\\Code\\Hahn.ApplicationProcess.Michael.Sterner\\Hahn.ApplicationProcess.February2021.Domain\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

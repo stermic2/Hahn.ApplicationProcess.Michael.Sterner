@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qZWKrYuELYnoEyQfgJc4rozo+JbbSy7affo3W/2IznI1taIL3m/VkNv/mbAGxSEqTPhA1xZ+Q/hMU6dYzEDX8g==",
+  "dgSpecHash": "q15Szdks/W1IS5NC0z/1lO2BG8VNE5gczrxj1HK2JYah/eYn+US5ooLG7Owg0ReeTwX1Z2ZgZwNfwhu5AxpwSQ==",
   "success": true,
-  "projectFilePath": "C:\\Code\\Hahn.ApplicationProcess.Application\\Hahn.ApplicationProcess.February2021.Web\\Hahn.ApplicationProcess.February2021.Web.csproj",
+  "projectFilePath": "C:\\Code\\Hahn.ApplicationProcess.Michael.Sterner\\Hahn.ApplicationProcess.February2021.Web\\Hahn.ApplicationProcess.February2021.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mikie.TLOFFICE\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
     "C:\\Users\\mikie.TLOFFICE\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",

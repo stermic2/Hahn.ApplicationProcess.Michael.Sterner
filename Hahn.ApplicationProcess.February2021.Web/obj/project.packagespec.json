@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Code\\Hahn.ApplicationProcess.Application\\Hahn.ApplicationProcess.February2021.Web\\Hahn.ApplicationProcess.February2021.Web.csproj",
+    "projectUniqueName": "C:\\Code\\Hahn.ApplicationProcess.Michael.Sterner\\Hahn.ApplicationProcess.February2021.Web\\Hahn.ApplicationProcess.February2021.Web.csproj",
     "projectName": "Hahn.ApplicationProcess.February2021.Web",
-    "projectPath": "C:\\Code\\Hahn.ApplicationProcess.Application\\Hahn.ApplicationProcess.February2021.Web\\Hahn.ApplicationProcess.February2021.Web.csproj",
-    "outputPath": "C:\\Code\\Hahn.ApplicationProcess.Application\\Hahn.ApplicationProcess.February2021.Web\\obj\\",
+    "projectPath": "C:\\Code\\Hahn.ApplicationProcess.Michael.Sterner\\Hahn.ApplicationProcess.February2021.Web\\Hahn.ApplicationProcess.February2021.Web.csproj",
+    "outputPath": "C:\\Code\\Hahn.ApplicationProcess.Michael.Sterner\\Hahn.ApplicationProcess.February2021.Web\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -19,8 +19,8 @@
     "frameworks": {
       "netcoreapp3.1": {
         "projectReferences": {
-          "C:\\Code\\Hahn.ApplicationProcess.Application\\Hahn.ApplicationProcess.February2021.Domain\\Hahn.ApplicationProcess.February2021.Domain.csproj": {
-            "projectPath": "C:\\Code\\Hahn.ApplicationProcess.Application\\Hahn.ApplicationProcess.February2021.Domain\\Hahn.ApplicationProcess.February2021.Domain.csproj"
+          "C:\\Code\\Hahn.ApplicationProcess.Michael.Sterner\\Hahn.ApplicationProcess.February2021.Domain\\Hahn.ApplicationProcess.February2021.Domain.csproj": {
+            "projectPath": "C:\\Code\\Hahn.ApplicationProcess.Michael.Sterner\\Hahn.ApplicationProcess.February2021.Domain\\Hahn.ApplicationProcess.February2021.Domain.csproj"
           }
         }
       }
