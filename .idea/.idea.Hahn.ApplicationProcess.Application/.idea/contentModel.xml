@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Code\Hahn.ApplicationProcess.Michael.Sterner" t="IncludeFlat">
+    <e p="C:\Code\Hahn.ApplicationProcess.Application" t="IncludeFlat">
       <e p="Hahn.ApplicationProcess.Application.sln" t="IncludeFlat" />
       <e p="Hahn.ApplicationProcess.February2021.Domain" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
@@ -44,7 +44,7 @@
         </e>
         <e p="DemoDbContext.cs" t="Include" />
         <e p="Hahn.ApplicationProcess.February2021.Web.csproj" t="IncludeRecursive" />
-        <e p="log-20210427.txt" t="Include" />
+        <e p="log-20210506.txt" t="Include" />
         <e p="Migrations" t="Include">
           <e p="20210414211013_InitialCreate.cs" t="Include" />
           <e p="20210414211013_InitialCreate.Designer.cs" t="Include" />
@@ -66,7 +66,7 @@
       </e>
       <e p="packages" t="ExcludeRecursive" />
     </e>
-    <e p="C:\Users\mikie\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\mikie\.Rider2019.3\system\resharper-host\Local\Transient\ReSharperHost\v193\SolutionCaches\_Hahn.ApplicationProcess.Application.1990754724.00" t="ExcludeRecursive" />
+    <e p="C:\Users\mikie.TLOFFICE\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\mikie.TLOFFICE\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Hahn.ApplicationProcess.Application.-1059605714.00" t="ExcludeRecursive" />
   </component>
 </project>

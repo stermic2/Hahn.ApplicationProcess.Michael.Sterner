@@ -14,16 +14,16 @@ namespace Hahn.ApplicationProcess.February2021.Web.Controllers
         public AssetsController(IMapper mapper, IMediator dispatcher) : base(mapper, dispatcher) {}
 
         [HttpPost]
-        public async Task<IActionResult> Post([FromBody] AssetDto dto) 
-            => await this.Add(dto);
+        public async Task<IActionResult> Post([FromBody] FormioJson<AssetDto> dto) 
+            => await this.Add(dto.data);
         
         [HttpGet("{id}")]
         public async Task<IActionResult> Get(string id) 
             => await this.Find<AssetDto>(id);
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> Put(string id, [FromBody] AssetDto dto) 
-            => await this.Update(id, dto);
+        public async Task<IActionResult> Put(string id, [FromBody] FormioJson<AssetDto> dto) 
+            => await this.Update(id, dto.data);
         
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(string id)
